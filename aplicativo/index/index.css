@@ -1,0 +1,35 @@
+.rodape{
+    position: fixed;
+    background-color: rgb(196, 132, 132);
+    height: 11%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    width: 9vh;
+    height: 75%;
+    background-color: rgb(161, 110, 110);
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+}
+
+.video{
+    background-color: rgb(196, 132, 132);
+    height: 11vh;
+    width: 50vh;
+    border-radius: 10px;
+    margin: 1%;
+    margin: auto;
+    box-shadow: 5px 5px;
+}
+
+.botao:hover{
+    scale: 1.1;
+}
